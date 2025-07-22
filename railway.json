@@ -1,0 +1,11 @@
+{
+  "build": {
+    "dockerfilePath": "Dockerfile"
+  },
+  "start": "cloudflared tunnel --no-autoupdate run --token $TUNNEL_TOKEN",
+  "env": {
+    "TUNNEL_TOKEN": {
+      "fromSecret": true
+    }
+  }
+}
