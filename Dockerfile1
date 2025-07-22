@@ -1,0 +1,14 @@
+# ใช้ Node เวอร์ชัน 18
+FROM node:18
+
+# ตั้ง working directory
+WORKDIR /app
+
+# คัดลอกไฟล์ทั้งหมด
+COPY . .
+
+# ติดตั้ง dependency
+RUN npm install
+
+# สั่งรันแอป
+CMD ["npm", "start"]
