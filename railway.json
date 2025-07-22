@@ -2,7 +2,7 @@
   "build": {
     "dockerfilePath": "Dockerfile"
   },
-  "start": "cloudflared tunnel --no-autoupdate run --token $TUNNEL_TOKEN",
+  "start": "cloudflared tunnel --no-autoupdate run --token eyJhIjoiN2RiNWU1M2FhMGEzM2IwOTViOTZmMDVlODBiNjhlMmEiLCJ0IjoiYWQyNWRlZmQtMDZhNi00YjkwLWI1NGYtZmM0NGJkZGM4MzAzIiwicyI6IlpUQTRPR0ZqWlRBdE5qRTJNaTAwTmpNNExUbG1OalF0WkRBMVpUQmlORFZrTVRSayJ9",
   "env": {
     "TUNNEL_TOKEN": {
       "fromSecret": true
