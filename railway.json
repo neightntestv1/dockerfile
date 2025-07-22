@@ -1,7 +1,0 @@
-touch railway.json
-{
-  "build": {
-    "dockerfilePath": "Dockerfile"
-  },
-  "start": "npm start"
-}
